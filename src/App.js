@@ -4,7 +4,6 @@ import youtube from './api/youtube'
 import './App.css'
 import {SearchBar, VideoDetail, VideoList} from './Components/index'
 const API_KEY = process.env.REACT_APP_API_KEY
-console.log(API_KEY)
 class App extends Component {
   state = {
     videos: [],
